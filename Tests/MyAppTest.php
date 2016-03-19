@@ -1,11 +1,11 @@
 <?php
 
-class MyAppTest
+class MyAppTest extends  PHPUnit_Framework_TestCase
 {
 
 
-    public function __construct()
-    {
-        echo 'MyApp Class';
-    }
+  public function setUp()
+  {
+      $this->assertEquals(false);
+  }
 }
