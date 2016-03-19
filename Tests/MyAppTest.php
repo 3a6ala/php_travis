@@ -6,6 +6,6 @@ class MyAppTest extends  PHPUnit_Framework_TestCase
 
   public function setUp()
   {
-      $this->assertEquals(false);
+      $this->assertEquals("MyApp Class");
   }
 }
