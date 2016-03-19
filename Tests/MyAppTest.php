@@ -9,4 +9,10 @@ class MyAppTest extends  PHPUnit_Framework_TestCase
         $foo = true;
         $this->assertTrue($foo);
     }
+
+    public function testString()
+    {
+        $x= "";
+        $this->assertEquals($x);
+    }
 }
