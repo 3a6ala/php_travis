@@ -12,7 +12,7 @@ class MyAppTest extends  PHPUnit_Framework_TestCase
 
     public function testString()
     {
-        $x= "";
-        $this->assertEquals($x);
+        $x= true;
+        $this->assertTrue($x);
     }
 }

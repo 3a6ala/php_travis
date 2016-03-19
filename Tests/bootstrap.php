@@ -1,11 +1,4 @@
 <?php
 
-function loader($class)
-{
-    $file = $class . '.php';
-    if (file_exists($file)) {
-        require $file;
-    }
-}
-
-spl_autoload_register('loader');
+// Enable Composer autoloader
+require dirname(__DIR__) . '/vendor/autoload.php';
