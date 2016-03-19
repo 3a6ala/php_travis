@@ -3,8 +3,11 @@
 class MyApp
 {
 
+    /**
+     *
+     */
     public function __construct()
     {
-        echo "MyApp Class";
+      return  "MyApp Class";
     }
 }
